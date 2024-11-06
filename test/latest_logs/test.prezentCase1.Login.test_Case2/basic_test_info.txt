@@ -1,0 +1,22 @@
+prezentCase1.py::Login::test_Case2
+--------------------------------------------------------------------
+Last Page: https://prezent-uatstaging.myprezent.com/welcome?initialIndex=1
+ Duration: 49.77s
+  Browser: Chrome 130.0.6723.92
+   Driver: chromedriver 130.0.6723.91
+Timestamp: 1730886743  (Unix Timestamp)
+     Date: Wednesday, 6 November 2024
+     Time: 3:22:23 PM  (India Standard Time, UTC+05:30)
+--------------------------------------------------------------------
+Traceback:
+  File "C:\Users\Rohit Singhal\IdeaProjects\myprezent\test\prezentCase1.py", line 37, in test_Case2
+    driver.wait_for_element("//span[@class='v-btn__content']")
+  File "C:\Users\Rohit Singhal\IdeaProjects\myprezent\venv\Lib\site-packages\seleniumbase\fixtures\base_case.py", line 9330, in wait_for_element
+    return page_actions.wait_for_element_visible(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rohit Singhal\IdeaProjects\myprezent\venv\Lib\site-packages\seleniumbase\fixtures\page_actions.py", line 514, in wait_for_element_visible
+    timeout_exception(NoSuchElementException, message)
+  File "C:\Users\Rohit Singhal\IdeaProjects\myprezent\venv\Lib\site-packages\seleniumbase\fixtures\page_actions.py", line 267, in timeout_exception
+    raise exc(msg)
+Exception: Message: 
+ Element {//span[@class='v-btn__content']} was not present after 10 seconds!
