@@ -9,9 +9,9 @@ class Login(BaseCase):
         driver.maximize_window()
         driver.open("https://prezent-uatstaging.myprezent.com/signin")
         driver.assert_element("#username")
-        driver.type("#username", "engg_user.noreply@prezent.ai")
+        driver.type("#username", ".......")
         driver.click("#continue")
-        driver.type("#password", "kiqjemkh")
+        driver.type("#password", ".......")
         driver.click("#submit")
         driver.wait_for_element_visible("div[name='profile-icon'] .v-avatar.profile-user-avatar.rounded", timeout=20)
 
